@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="fonts.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;200;400;700;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Tenis Shop</title>
+</head>
+<body>
+    <!-- NAV COMEÇA AQUI  -->
+    <nav id="nav">
+        <!-- NAV-TOP COMEÇA AQUI -->
+        <div class="nav-top">
+            <div class="navItem">
+                <img src="./img/sneakers.png" alt="">
+            </div>
+            <div class="navItem">
+                <div class="pesquisa">
+                    <input type="text" placeholder="Pesquisar..." class="pesquisaInput">
+                    <img src="./img/search.png" width="20" height="20" alt="">
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="ofertaLimitada">Oferta por tempo Limitado!</span>
+            </div>
+        </div>
+        <!-- NAV-BOTTOM COMEÇA AQUI -->
+        <div class="nav-bottom">
+            <h3 class="menuItem">AIR FORCE</h3>
+            <h3 class="menuItem">JORDAN</h3>
+            <h3 class="menuItem">BLAZER</h3>
+            <h3 class="menuItem">CRATER</h3>
+            <h3 class="menuItem">HIPPIE</h3>
+        </div>
+    </nav>
+    <!-- DIV SLIDER CLASS COMEÇA AQUI  -->
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./img/air.png" alt="" class="sliderImg">
+                <div class="sliderBackground"></div>
+                <h1 class="sliderTitulo">AIR FORCE <br> BLACK</h1>
+                <h2 class="sliderPreco">R$200,00</h2>
+                <a href="#product">
+                    <button class="comprarBtn">COMPRAR</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/jordan.png" alt="" class="sliderImg">
+                <div class="sliderBackground"></div>
+                <h1 class="sliderTitulo">JORDAN</h1>
+                <h2 class="sliderPreco">R$500,00</h2>
+                <a href="#product">
+                    <button class="comprarBtn">COMPRAR</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/blazer.png" alt="" class="sliderImg">
+                <div class="sliderBackground"></div>
+                <h1 class="sliderTitulo">BLAZER</h1>
+                <h2 class="sliderPreco">R$400,00</h2>
+                <a href="#product">
+                    <button class="comprarBtn">COMPRAR</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/crater.png" alt="" class="sliderImg">
+                <div class="sliderBackground"></div>
+                <h1 class="sliderTitulo">CRATER</h1>
+                <h2 class="sliderPreco">R$200,00</h2>
+                <a href="#product">
+                    <button class="comprarBtn">COMPRAR</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/hippie.png" alt="" class="sliderImg">
+                <div class="sliderBackground"></div>
+                <h1 class="sliderTitulo">HIPPIE</h1>
+                <h2 class="sliderPreco">R$300,00</h2>
+                <a href="#product">
+                    <button class="comprarBtn">COMPRAR</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <img src="img/shipping.png" alt="" class="featureIcon">
+            <span class="featureTitle">FRETE GRÁTIS</span>
+            <span class="featureDesc">Entregamos para todo Brasil.</span>
+        </div>
+
+        <div class="feature">
+            <img src="img/return.png" alt="" class="featureIcon">
+            <span class="featureTitle">30 Dias para devolução</span>
+            <span class="featureDesc">Politica de retorno segura e estorno em até 15 dias.</span>
+        </div>
+
+        <div class="feature">
+            <img src="img/gift.png" alt="" class="featureIcon">
+            <span class="featureTitle">Vale Presente</span>
+            <span class="featureDesc">Compre cartoes de presente com desconto.</span>
+        </div>
+
+        <div class="feature">
+            <img src="img/contact.png" alt="" class="featureIcon">
+            <span class="featureTitle">CONTATO</span>
+            <span class="featureDesc">Entre em contato por email.</span>
+        </div>
+    </div>
+    <div class="product" id="product">
+        <img src="/img/air.png" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">AIR FORCE</h1>
+            <h2 class="productPrice"></h2>
+            <p class="productDesc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum sit cupiditate itaque maxime dicta fuga assumenda error asperiores. Aliquam vero hic recusandae, in ipsum repellat quas officiis maiores dolorem? Nobis.</p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="sizes">
+                <div class="size">38</div>
+                <div class="size">40</div>
+                <div class="size">42</div>
+            </div>
+            <button class="productButton">COMPRAR!</button>
+        </div>
+        <div class="payment">
+            <h1 class="payTitle">Informações Pessoais</h1>
+            <label for="">Nome e Sobrenome</label>
+            <input type="text" placeholder="Seu nome.." class="payInput">
+            <label for="">Telefone</label>
+            <input type="text" placeholder="(15)123-4567" class="payInput">
+            <label for="">Endereço</label>
+            <input type="text" placeholder="Rua das Flores, 250" class="payInput">
+            <h1 class="payTitle">Informações do Cartão</h1>
+            <div class="cardIcons">
+                <img src="img/visa.png" width="40" alt="" class="cardIcon">
+                <img src="img/master.png" width="40" alt="" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="numero do cartão">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="aaaa" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payButton">Checkout</button>
+            <span class="close">X</span>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Seja você!</h1>
+            <img src="https://images.pexels.com/photos/9295809/pexels-photo-9295809.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="https://images.pexels.com/photos/1040427/pexels-photo-1040427.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="galleryImg">
+            <h1 class="galleryTitle">Dia um ou um dia, você escolhe</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Just Do it!</h1>
+            <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="galleryImg">
+        </div>
+    </div>
+    <div class="newSeason">
+        <div class="nsItem">
+            <img src="https://images.pexels.com/photos/4753986/pexels-photo-4753986.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="nsImg">
+        </div>
+        <div class="nsItem">
+            <h3 class="nsTitleSm">WINTER NEW ARRIVALS</h3>
+            <h1 class="nsTitle">New Season</h1>
+            <h1 class="nsTitle">New Collection</h1>
+            <a href="#nav">
+                <button class="nsButton">CHOOSE YOUR STYLE</button>
+            </a>
+        </div>
+        <div class="nsItem">
+            <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="nsImg">
+        </div>
+    </div>
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Sobre nós</h1>
+                <ul class="fList">
+                    <li class="fListItem">Empresa</li>
+                    <li class="fListItem">Contato</li>
+                    <li class="fListItem">Carreira</li>
+                    <li class="fListItem">Afiliados</li>
+                    <li class="fListItem">Historias</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Links ùteis</h1>
+                <ul class="fList">
+                    <li class="fListItem">Suporte</li>
+                    <li class="fListItem">Estorno</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">Stories</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Produtos</h1>
+                <ul class="fList">
+                    <li class="fListItem">Air Force</li>
+                    <li class="fListItem">Air Jordan</li>
+                    <li class="fListItem">Blazer</li>
+                    <li class="fListItem">Crater</li>
+                    <li class="fListItem">Hippie</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Se inscreva para receber nossas novidades</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="seu@email.com" class="fInput">
+                    <button class="fButton">Aceitar</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Siga-nos</h1>
+                <div class="fIcons">
+                    <img src="img/facebook.png" alt="" class="fIcon">
+                    <img src="img/twitter.png" alt="" class="fIcon">
+                    <img src="img/instagram.png" alt="" class="fIcon">
+                    <img src="img/whatsapp.png" alt="" class="fIcon">
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">tehe</span>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
